@@ -1,0 +1,202 @@
+.protection {
+  font-size: 85px;
+  font-weight: 900;
+  font-style: italic;
+  font-family: Rubik, sans-serif;
+  color: #414c54;
+  margin-right: 50px;
+}
+
+p {
+  color: hsl(205, 13%, 29%);
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.d_grid_center {
+  display: grid !important;
+  justify-items: center;
+}
+
+.w_70 {
+  width: 85% !important;
+}
+
+.text_center {
+  text-align: center;
+}
+.text_sm {
+  font-size: 12px;
+  font-family: Rubik, sans-serif;
+  color: green;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.image_h {
+  width: 9%;
+  margin: 4px;
+}
+
+.link_ {
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+}
+
+.class_of_top {
+  position: relative;
+}
+
+.hover_image_ {
+  position: absolute;
+  top: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px !important;
+  width: 23% !important;
+}
+
+#link_8 {
+  background-image: url("../assets/Protection-slider-image2.png") !important;
+}
+#link_7 {
+  background-image: url("../assets/solution-plant-machinery.png") !important;
+}
+#link_6 {
+  background-image: url("../assets/solution-agricultural-machinery.png") !important;
+}
+#link_5 {
+  background-image: url("../assets/solution-motorhomes.png") !important;
+}
+#link_4 {
+  background-image: url("../assets/solution-caravan.png") !important;
+}
+#link_3 {
+  background-image: url("../assets/solution-truck.png") !important;
+}
+#link_1 {
+  background-image: url("../assets/Protection-slider-image.png") !important;
+}
+#link_2 {
+  background-image: url("../assets/solution-van.png") !important;
+}
+
+#solution {
+  background-image: url("../assets/solution-finder.png") !important;
+}
+
+.font_40 {
+  font-size: 35px !important;
+}
+
+.text-red {
+  color: red;
+}
+
+.display_g_e {
+  text-align: center;
+  display: grid;
+  justify-items: end;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.w_65 {
+  width: 70% !important;
+}
+
+.bg-red {
+  background: red !important;
+}
+
+.bg-gree {
+  background: rgb(86, 86, 86) !important;
+}
+.text-bold {
+  font-weight: bold !important;
+}
+.font-14 {
+  font-size: 14px;
+}
+
+.display_c {
+  display: flex !important;
+  justify-content: space-around;
+}
+
+.official_main {
+  border-top: 1px solid rgba(213, 213, 213, 0.705);
+  border-bottom: 1px solid rgba(213, 213, 213, 0.735);
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.border-left {
+  border-right: 1px solid rgba(213, 213, 213, 0.719);
+}
+
+.input {
+  width: 100% !important;
+  height: 50px;
+}
+.w-49 {
+  width: 49%;
+}
+
+.input-main {
+  width: 80%;
+  text-align: left !important;
+}
+
+.justify_c {
+  justify-content: space-between;
+}
+
+.label_ {
+  font-weight: bold;
+  color: #414c54;
+}
+
+.checkbox {
+  width: 20px;
+  height: 20px;
+}
+
+.display_f_c {
+  display: flex;
+  align-items: center;
+}
+
+.input-submit {
+  width: auto !important;
+  background: red;
+  color: white;
+  font-weight: bold;
+  border: navajowhite;
+  border-radius: 3px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 40px;
+}
+
+.become_ {
+  display: flex;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px !important;
+  width: 100% !important;
+  background-image: url("../assets/background-header.png") !important;
+}
+
+.form_con {
+  margin-top: -30px;
+  background: white;
+}
