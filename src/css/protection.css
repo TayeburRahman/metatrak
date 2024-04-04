@@ -200,3 +200,17 @@ p {
   margin-top: -30px;
   background: white;
 }
+
+.text_small {
+  font-size: 16px;
+}
+.link_1 {
+  text-decoration: none;
+  color: #414c54;
+  font-weight: 500;
+}
+
+.link_1:hover {
+  text-decoration: underline;
+  color: red;
+}

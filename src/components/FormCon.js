@@ -12,8 +12,12 @@ function FormCon() {
             <div className='become_'>
                 <Container ><h2 className='protection text-left'>BECOME A DEALER</h2></Container>
             </div>
-            <Container className='pt-5 form_con'>
-                <form onSubmit={handleSubmit(onSubmit)} className='input-main '>
+            <Container className='pt-5 form_con '>
+                <div className='input-main'>
+                <p className='mt-5 text_small'>Please complete the form below to open an account, subject to checks and approval.</p>
+                <p className='text_small'>A member of our team will be in touch with you shortly, but if you have any questions please contact us on 0208 332 0121 or info@metatrak.co.uk.</p>
+                <p className='text_small'>Unrivalled hardware. Smaller. Smarter. Easier to install. Quick and easy commissioning, 24/7 online and via app.</p>
+                <form onSubmit={handleSubmit(onSubmit)} className=' '>
                     <label className='label_' >Full company name for credit card account application * </label><br/>
                     <input className='input' {...register("firstName")} />
                     <p>{errors.firstName?.message}</p>
@@ -157,12 +161,13 @@ function FormCon() {
 
                         <label className='display_f_c mt-1'>
                             <input type="checkbox" className="me-2 checkbox" value="Google Search" {...register("howHeard")} />
-                            I have read and understood your <Link> terms and conditions of sale</Link>
+                            I have read and understood your<Link className='ms-1 link_1'> terms and conditions of sale</Link>
                         </label> 
 
                     
                     <input className='input-submit mt-4' type="submit" />
                 </form>
+                </div>
             </Container>
         </div>
     )
